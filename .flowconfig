@@ -1,0 +1,13 @@
+[ignore]
+
+[include]
+
+[libs]
+flow-typed
+
+[lints]
+
+[options]
+module.name_mapper='\(monorepo-[^/]*\)' -> '<PROJECT_ROOT>/packages/\1/src/index.js'
+
+[strict]
