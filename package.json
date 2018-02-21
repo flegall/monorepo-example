@@ -18,7 +18,5 @@
     "jest": "^22.4.0",
     "prettier": "^1.10.2"
   },
-  "scripts": {
-    "postinstall": "yarn run lerna bootstrap"
-  }
+  "workspaces": ["packages/*"]
 }
