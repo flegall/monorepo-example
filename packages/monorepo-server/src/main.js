@@ -1,4 +1,4 @@
 // @flow
 import { doReturn5 } from './index';
 
-doReturn5();
+console.log('5 :: ', doReturn5());

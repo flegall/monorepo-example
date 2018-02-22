@@ -5,5 +5,8 @@
   "license": "MIT",
   "dependencies": {
     "monorepo-lib": "^1.0.0"
+  },
+  "scripts": {
+    "webpack": "../../node_modules/.bin/webpack"
   }
 }
